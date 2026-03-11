@@ -13,7 +13,7 @@ function ProjectSection({
   children: ReactNode;
 }) {
   return (
-    <section className=" border rounded-4xl bg-black/50 backdrop-blur-sm p-1">
+    <section className=" border rounded-4xl bg-black/60 backdrop-blur-sm p-1">
       <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
         pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
@@ -62,7 +62,8 @@ export default function Home() {
           >
             <div className="w-full max-w-7xl mx-auto px-4">
               <p className="text-base sm:text-lg text-slate-400 pt-4 mb-6">
-                This site highlights some of my robotics projects.
+                Robotics and embedded systems projects focused on real hardware, microcontroller
+                development, and software–hardware integration.
               </p>
             </div>
             <div className="w-full max-w-md mx-auto mb-4">
