@@ -180,7 +180,7 @@ export default function Education() {
         <div className="space-y-12">
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Quantitative & Mathematical Foundations
+            Mathematical Foundations
           </p>
           <Accordion items={Quant_Math} />
 

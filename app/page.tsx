@@ -13,7 +13,7 @@ function ProjectSection({
   children: ReactNode;
 }) {
   return (
-    <section className=" border rounded-4xl bg-black/80 p-1">
+    <section className=" border rounded-4xl bg-black/50 backdrop-blur-sm p-1">
       <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
         pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
@@ -36,11 +36,11 @@ export default function Home() {
       {/* Fixed background image */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0
-          bg-[url('/page.jpg')]
+          bg-[url('/arm_chip.jpeg')]
           bg-cover
           bg-center
           bg-no-repeat" />
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/30"/>
         </div>
 
       {/* Main content */}
@@ -56,13 +56,13 @@ export default function Home() {
           <ProjectSection
             title={
               <>
-              Quantitative Research & Development
+              Robotics Engineer
               </>
             }
           >
             <div className="w-full max-w-7xl mx-auto px-4">
               <p className="text-base sm:text-lg text-slate-400 pt-4 mb-6">
-                This site documents my work in systematic alpha research, predictive pricing models, and quantitative strategy implementation.
+                This site highlights some of my robotics projects.
               </p>
             </div>
             <div className="w-full max-w-md mx-auto mb-4">
@@ -70,10 +70,10 @@ export default function Home() {
               icon={<Workflow className="h-6 w-6 text-neutral-400" />}
               title={
                 <a
-                  href="/quantitative_research_development"
+                  href="/robotics_projects"
                   className="text-center break-normal"
                 >
-                  Quantitative R&D
+                  Robotics Projects
                 </a>
               }
               description={null}
