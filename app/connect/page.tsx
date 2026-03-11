@@ -69,7 +69,7 @@ export default function ConnectPage() {
               description={null}
             />
           </div>
-          {/* <div className="w-full max-w-md mx-auto">
+          <div className="w-full max-w-md mx-auto">
             <GridItem
               icon={<Youtube className="h-6 w-6 text-neutral-400" />}
               title={
@@ -84,7 +84,7 @@ export default function ConnectPage() {
               }
               description={null}
             />
-          </div> */}
+          </div>
         </div>
       </ul>
     </div>
