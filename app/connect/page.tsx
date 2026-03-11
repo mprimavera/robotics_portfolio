@@ -4,7 +4,7 @@ import { Box, Mail, MessageSquareText } from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import ContactForm from "../components/contact_page";
 import { Vortex } from "@/components/ui/vortex";
-import { Linkedin, Github } from "lucide-react";
+import { Linkedin, Github, Youtube } from "lucide-react";
 import { GridItem } from "../components/grid_item";
 
 export default function ConnectPage() {
@@ -64,6 +64,22 @@ export default function ConnectPage() {
                   className="text-center break-normal"
                 >
                   Visit My GitHub
+                </a>
+              }
+              description={null}
+            />
+          </div>
+          <div className="w-full max-w-md mx-auto">
+            <GridItem
+              icon={<Youtube className="h-6 w-6 text-neutral-400" />}
+              title={
+                <a
+                  href="https://www.youtube.com/watch?v=Cx7HpJapaZQ&list=PL1Ee_XSiTSM1GA_aDLcfJW1ZUOly3xfva"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center break-normal"
+                >
+                  Engineering Playlist
                 </a>
               }
               description={null}
