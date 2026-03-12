@@ -39,7 +39,16 @@ const CS = [
 
   { title: "MATLAB", content: `MATLAB for controls, robotics modeling, circuit analysis, and mathematical computation with visualization.` 
   },
-  { title: "Software Engineering", content: `PERN stack: PostgreSQL, Express, React, and Node.js`
+  { title: "Software Engineering", 
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Agile Project Management</li>
+          <li>TypeScript</li>
+          <li>PERN stack: PostgreSQL, Express, React, and Node.js</li>
+        </ul>
+      </div>
+    ),
   },
 
   { title: "Applied Discrete Mathematics",
@@ -105,8 +114,8 @@ const Robotics_EmbeddedSys = [
         <ul className="list-disc pl-5 space-y-1">
           <li>Mechanical Applications in Robotics</li>
           <li>Sensing and Perception</li>
-          <li>Manipulation</li>
-          <li>Navigation</li>
+          <li>Manipulation (Forward & Inverse Kinematics)</li>
+          <li>Navigation (ROS)</li>
         </ul>
       </div>
     ),
@@ -137,7 +146,7 @@ const MQPAccordion = [
           <li>Developed a laser probe and safety system for the automatic tool changer</li>
           <li>Designed and implemented mechanical bed leveling</li>
           <li>Discovered that the software "glitches" noticed by students were actually the result of electromagnetic interference (EMI)
-            from the VFD powering the spindle</li>
+            from the spindle VFD</li>
           <li>
           Led technical contributions across controls integration, mechanical design,
           and authorship of the 342-page final report.
