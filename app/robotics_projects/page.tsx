@@ -40,29 +40,6 @@ export default function Projects() {
         {/* ===== Robotics ===== */}
         <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Robotics">
-            {/* Industrial Robotics */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9"
-                    title="Industrial Robotics"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
-                </p>
-                <p className="text-sm text-slate-500">
-                  My primary responsibility was programming the central UR5e after selecting it to control the system via the PLC. I also handled the video editing.
-                </p>
-              </BackgroundGradient>
-            </div>
             {/* RBE3001 Vision */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">
@@ -87,6 +64,28 @@ export default function Projects() {
                     and inverse kinematics.
                   </p>
                 </div>
+              </BackgroundGradient>
+            </div>
+            {/* Industrial Robotics */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9"
+                    title="Industrial Robotics"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
+                </p>
+                <p className="text-sm text-slate-500">
+                  My primary responsibility was programming the central UR5e after selecting it to control the system via the PLC. I also handled the video editing.
+                </p>
               </BackgroundGradient>
             </div>
           </ProjectSection>
