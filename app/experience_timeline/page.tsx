@@ -25,10 +25,11 @@ export default function Experience_Timeline() {
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li>
-              Designed and implemented asset-specific predictive pricing models using structured quantitative analysis and out-of-sample validation.
+              Development of asset-specific predictive pricing models combining historical price data with supply metrics and structural indicators to
+              generate systematic alpha signals
             </li>
             <li>
-              Translated research models into executable strategy logic with signal generation, trade state management, and performance evaluation.
+              Translation of projection models into executable rule-based trading system logic
             </li>
           </ul>
         </div>
