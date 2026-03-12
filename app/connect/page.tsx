@@ -12,7 +12,7 @@ export default function ConnectPage() {
     <>
     {/* Fixed background image */}
     <div className="fixed inset-0 -z-10">
-      <div className="absolute inset-0 bg-[url('/connect.jpeg')] bg-cover bg-center bg-no-repeat" /> 
+      <div className="absolute inset-0 bg-[url('/connect.jpg')] bg-cover bg-center bg-no-repeat" /> 
       <div className="absolute inset-0 bg-black/70 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" /> 
     </div>
 
