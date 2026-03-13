@@ -62,8 +62,9 @@ export default function Home() {
           >
             <div className="w-full max-w-7xl mx-auto px-4">
               <p className="text-base sm:text-lg text-slate-400 pt-4 mb-6">
-                Robotics and embedded systems projects focused on real hardware, microcontroller
-                development, and software–hardware integration.
+                Robotics engineer focused on software, embedded systems, and real-world automation
+                built on physical hardware. Background in robotic automation systems integration and
+                CNC manufacturing.
               </p>
             </div>
             <div className="w-full max-w-md mx-auto mb-4">
