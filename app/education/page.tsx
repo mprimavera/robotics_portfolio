@@ -173,7 +173,7 @@ const MQPAccordion = [
             control-system faults (described as software "glitches" in the previous team's report)</li>
           <li>
           Led technical contributions across controls integration, mechanical design,
-          and authorship of the 342-page final report.
+          and authorship of the 342-page final technical report.
           </li>
         </ul>
         {/* Centered button */}
@@ -203,10 +203,13 @@ export default function Education() {
         <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
           Education
         </h2>
-        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
-          <p className="mb-24">
+        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-24">
+          <p>
             Robotics Engineering (WPI) focused on robotics software, embedded systems, control engineering,
             and autonomous system development.
+          </p>
+          <p className="mt-4">
+            Pursuing an M.S. in AI (Johns Hopkins).
           </p>
         </div>
         {/* Accordions */}
