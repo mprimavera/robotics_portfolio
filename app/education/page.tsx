@@ -1,7 +1,149 @@
 import { Accordion } from "../components/accordion";
 
+const Robotics_EmbeddedSys = [
+  { title: "Core Robotics Systems",     
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Mechanical Applications in Robotics</li>
+          <li>Sensing and Perception</li>
+          <li>Manipulation (Forward & Inverse Kinematics)</li>
+          <li>Navigation (ROS)</li>
+        </ul>
+      </div>
+    ),
+  defaultOpen: true,
+  }, 
+  { title: "Artificial Intelligence in Robotics",     
+  content: (
+    <div className="space-y-4">
+      <ul className="list-disc pl-5 space-y-1">
+        <li>A* search</li>
+        <li>Dijkstra's algorithm</li>
+        <li>Adversarial search</li>
+        <li>Markov decision processes</li>
+        <li>Reinforcement learning</li>
+        <li>Neural networks</li>
+        <li>Deep learning</li>
+      </ul>
+    </div>
+  ),
+  },
+  { title: "Industrial Robotics", content: `Robot programming: UR5 (Universal Robots) and FANUC M-1iA delta robot;
+    PLC development using Arduino PLC IDE`
+  },
+  { title: "Microcontroller Programming",
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Raspberry Pi programming in C and Python</li>
+          <li>Pico CNC with grblHAL firmware programming in C (MQP Mini CNC Mill)</li>
+          <li>PLC programming: Arduino PLC IDE</li>
+        </ul>
+      </div>
+    ),
+  }, 
+  { title: "Communication Protocols", content: (
+    <div className="space-y-4">
+      <ul className="list-disc pl-5 space-y-1">
+        <li>UART</li>
+        <li>I2C</li>
+        <li>SPI</li>
+      </ul>
+    </div>
+  ),
+  },
+  { title: "Control Engineering",
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Mathematical modeling of dynamic systems</li>
+          <li>Laplace transforms and transfer functions</li>
+          <li>Block diagrams and signal-flow representations</li>
+          <li>Transient response analysis</li>
+          <li>Stability analysis and root-locus methods</li>
+          <li>Frequency-domain analysis: Bode, polar, and Nichols plots</li>
+        </ul>
+      </div>
+    ),
+  },
+  { title: "Circuit Analysis", content: `Sensor interfacing and circuit modeling using resistors, capacitors, and inductors; analysis
+    with Kirchhoff’s laws, Thevenin/Norton equivalents, and signal processing concepts` 
+  },
+  { title: "Statics", content: `Analysis of forces, moments, free-body diagrams, trusses, friction, and beam loading for equilibrium
+    of mechanical systems` 
+  },
+]
 
-const Quant_Math = [
+const CS = [
+  { title: "Object-Oriented Programming (Python, C++, Java)", 
+    content: (`Implemented data structures and control logic in Python and C++; Java used in formal OOP coursework`),
+    defaultOpen: true,
+  },
+  {
+    title: "C and Assembly",
+    content: (
+    `Wrote multiple MSP430 programs in C and Assembly for embedded systems applications`
+    ),
+  },
+  { title: "Linux OS", content: `Linux-based development and systems programming` 
+  },
+  { title: "Git", content: `Git (CLI & GitHub) for version-controlled collaborative development`
+  },
+  { title: "MATLAB", content: `MATLAB for controls, robotics modeling, circuit analysis, and mathematical computation with visualization.` 
+  },
+  { title: "Software Engineering", 
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Agile Project Management</li>
+          <li>TypeScript</li>
+          <li>PERN stack: PostgreSQL, Express, React, and Node.js</li>
+        </ul>
+      </div>
+    ),
+  },
+  { title: "Applied Discrete Mathematics",
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Boolean algebra and predicate logic</li>
+          <li>Set theory and ordered sets</li>
+          <li>Mathematical induction and proof techniques</li>
+          <li>Relations and lattice theory</li>
+          <li>Tree structures and discrete mathematical models</li>
+        </ul>
+      </div>
+    ),
+  },
+  { title: "SQL", content: `PostgreSQL for relational schema design and backend integration`
+  },
+]
+
+const Engineering_Tools = [
+    { title: "Engineering Tools", 
+    content: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-5 space-y-1">
+          <li>SOLIDWORKS</li>
+          <li>Fusion 360</li>
+          <li>KiCAD</li>
+          <li>Finite Element Analysis (FEA)</li>
+          <li>Failure Mode and Effects Analysis (FMEA)</li>
+          <li>Engineering Drawing Interpretation</li>
+          <li>VS Code</li>
+          <li>WebStorm</li>
+          <li>Oscilloscope</li>
+          <li>Soldering</li>
+          <li>Multimeter</li>
+        </ul>
+      </div>
+    ),
+    defaultOpen: true,
+  },
+]
+
+const Mathematics = [
     { title: "Mathematics Courses", 
     content: (
       <div className="space-y-4">
@@ -18,124 +160,6 @@ const Quant_Math = [
   },
 ]
 
-const CS = [
-
-  { title: "Object-Oriented Programming (Python, C++, Java)", 
-    content: (`Implemented data structures and control logic in Python and C++; Java used in formal OOP coursework`),
-    defaultOpen: true,
-  },
-  {
-    title: "Assembly",
-    content: (
-    `Wrote multiple MSP430 programs in Assembly for embedded systems applications`
-    ),
-  },
-  { title: "Linux OS", content: `Linux-based development and systems programming` 
-  },
-  { title: "Git", content: `Git (CLI & GitHub) for version-controlled collaborative development`
-  },
-  { title: "SQL", content: `PostgreSQL for relational schema design and backend integration`
-  }, 
-
-  { title: "MATLAB", content: `MATLAB for controls, robotics modeling, circuit analysis, and mathematical computation with visualization.` 
-  },
-  { title: "Software Engineering", 
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Agile Project Management</li>
-          <li>TypeScript</li>
-          <li>PERN stack: PostgreSQL, Express, React, and Node.js</li>
-        </ul>
-      </div>
-    ),
-  },
-
-  { title: "Applied Discrete Mathematics",
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Boolean algebra and predicate logic</li>
-          <li>Set theory and ordered sets</li>
-          <li>Mathematical induction and proof techniques</li>
-          <li>Relations and lattice theory</li>
-          <li>Tree structures and discrete mathematical models</li>
-        </ul>
-      </div>
-    ),
-  }
-]
-
-const Robotics_EmbeddedSys = [
-  { title: "Control Engineering",
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Mathematical modeling of dynamic systems</li>
-          <li>Laplace transforms and transfer functions</li>
-          <li>Block diagrams and signal-flow representations</li>
-          <li>Transient response analysis</li>
-          <li>Stability analysis and root-locus methods</li>
-          <li>Frequency-domain analysis: Bode, polar, and Nichols plots</li>
-        </ul>
-      </div>
-    ),
-    defaultOpen: true,
-  },
-  { title: "Microcontroller Programming",
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Raspberry Pi programming in C and Python</li>
-          <li>Pico CNC with grblHAL firmware programming in C (MQP Mini CNC Mill)</li>
-          <li>PLC programming: Arduino PLC IDE</li>
-        </ul>
-      </div>
-    ),
-  },  
-  { title: "Artificial Intelligence in Robotics",     
-  content: (
-    <div className="space-y-4">
-      <ul className="list-disc pl-5 space-y-1">
-        <li>A* search</li>
-        <li>Dijkstra's algorithm</li>
-        <li>Adversarial search</li>
-        <li>Markov decision processes</li>
-        <li>Reinforcement learning</li>
-        <li>Neural networks</li>
-        <li>Deep learning</li>
-      </ul>
-    </div>
-  ),
-  },
-    { title: "Unified Robotics Courses",     
-    content: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Mechanical Applications in Robotics</li>
-          <li>Sensing and Perception</li>
-          <li>Manipulation (Forward & Inverse Kinematics)</li>
-          <li>Navigation (ROS)</li>
-        </ul>
-      </div>
-    ),
-    defaultOpen: true,
-  },
-  { title: "Communication Protocols", content: (
-    <div className="space-y-4">
-      <ul className="list-disc pl-5 space-y-1">
-        <li>UART</li>
-        <li>I2C</li>
-        <li>SPI</li>
-      </ul>
-    </div>
-  ),
-  defaultOpen: true,
-  },
-  { title: "Industrial Robotics", content: `Programming: Arduino PLC, a UR5 Universal Robots arm, and an M-1iA FANUC delta robot`
-  },
-]
-
 const MQPAccordion = [
   {
     title: "Mini CNC Mill",
@@ -145,8 +169,8 @@ const MQPAccordion = [
           <li>Established a GitHub-based workflow for version control and remote collaboration on SOLIDWORKS files</li>
           <li>Developed a laser probe and safety system for the automatic tool changer</li>
           <li>Designed and implemented mechanical bed leveling</li>
-          <li>Discovered that the software "glitches" noticed by students were actually the result of electromagnetic interference (EMI)
-            from the spindle VFD</li>
+          <li>Identified electromagnetic interference (EMI) from the spindle VFD as the root cause of previously reported
+            control-system faults (described as software "glitches" in the previous team's report)</li>
           <li>
           Led technical contributions across controls integration, mechanical design,
           and authorship of the 342-page final report.
@@ -166,7 +190,6 @@ const MQPAccordion = [
           </a>
         </div>
       </div>
-      
     ),
     defaultOpen: true,
   },
@@ -182,16 +205,17 @@ export default function Education() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-24">
-            Robotics Engineering (WPI) with emphasis on automation, mathematical modeling, control systems, and software development
+            Robotics Engineering (WPI) focused on robotics software, embedded systems, control engineering,
+            and autonomous system development.
           </p>
         </div>
         {/* Accordions */}
         <div className="space-y-12">
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Mathematical Foundations
+            Robotics & Embedded Systems
           </p>
-          <Accordion items={Quant_Math} />
+          <Accordion items={Robotics_EmbeddedSys} />
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Computer Science
@@ -199,10 +223,15 @@ export default function Education() {
           <Accordion items={CS} />
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Robotics & Embedded Systems
+            Engineering Tools
           </p>
-          <Accordion items={Robotics_EmbeddedSys} />
-          
+          <Accordion items={Engineering_Tools} />
+
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+            Mathematical Foundations
+          </p>
+          <Accordion items={Mathematics} />
+
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Major Qualifying Project
           </p>
