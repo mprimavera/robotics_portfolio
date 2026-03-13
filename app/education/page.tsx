@@ -8,7 +8,7 @@ const Robotics_EmbeddedSys = [
           <li>Mechanical Applications in Robotics</li>
           <li>Sensing and Perception</li>
           <li>Manipulation (Forward & Inverse Kinematics)</li>
-          <li>Navigation (ROS)</li>
+          <li>Navigation (ROS, SLAM)</li>
         </ul>
       </div>
     ),
@@ -36,9 +36,9 @@ const Robotics_EmbeddedSys = [
     content: (
       <div className="space-y-4">
         <ul className="list-disc pl-5 space-y-1">
-          <li>Raspberry Pi programming in C and Python</li>
-          <li>Pico CNC with grblHAL firmware programming in C (MQP Mini CNC Mill)</li>
-          <li>PLC programming: Arduino PLC IDE</li>
+          <li>Raspberry Pi development in C and Python</li>
+          <li>Firmware development in C using grblHAL (Pico CNC controller)</li>
+          <li>PLC programming using Arduino PLC IDE</li>
         </ul>
       </div>
     ),
