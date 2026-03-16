@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <div className="">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
+        <h2 className="text-xl md:text-4xl mb-12 text-slate-400 font-semibold">
           Robotics Projects
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
@@ -42,12 +42,12 @@ export default function Projects() {
           <ProjectSection title="Robotics">
             {/* RBE3001 Vision */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B"
+                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B&rel=0"
                     title="Robot Vision"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -68,12 +68,12 @@ export default function Projects() {
             </div>
             {/* Industrial Robotics */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9"
+                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9&rel=0"
                     title="Industrial Robotics"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -96,12 +96,12 @@ export default function Projects() {
             <ProjectSection title="Embedded Systems">
               {/* Embedded systems PD control*/}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
                       loading="lazy"
                       className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ"
+                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ&rel=0"
                       title="Embedded Programming"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -119,40 +119,14 @@ export default function Projects() {
                   </div>
                 </BackgroundGradient>
               </div>
-              {/* Adjustable Duty Cycle */}
-              {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                  <div className="w-full aspect-video mb-4">
-                    <iframe
-                      loading="lazy"
-                      className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/4sNkf1GcZYo?si=Q8oHnvzp2FLXDE7U"
-                      title="Adjustable Duty Cycle"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                    Embedded programming in C: adjustable duty cycle
-                  </p>
-                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                    <p className="text-sm text-slate-500">
-                      I used a potentiometer with an ADC module to adjust the duty cycle output of a PWM pin on a Raspberry Pi
-                      Pico 2 W microcontroller. The code was written in C using a Linux environment. An oscilloscope was used
-                      to verify correct operation within ±2.5%.
-                    </p>
-                  </div>
-                </BackgroundGradient>
-              </div> */}
               {/* ADC Voltmeter */}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
                       loading="lazy"
                       className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_"
+                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_&rel=0"
                       title="ADC Voltmeter"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -174,19 +148,17 @@ export default function Projects() {
           </ProjectSection>
         </div>
 
-
-
         {/* ===== End-to-End Engineering Project: Mini CNC Mill ===== */}
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="End-to-End Engineering Project: Mini CNC Mill">
             {/* MQP mini CNC mill */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy"
+                    src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy&rel=0"
                     title="Major Qualifying Project"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -206,12 +178,12 @@ export default function Projects() {
             </div>
             {/* MQP mini CNC mill: presentation of finalized R&D phase */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy"
+                    src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy&rel=0"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -232,13 +204,13 @@ export default function Projects() {
             </div>
             {/* MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[400px] sm:h-[450px] md:h-[450px] lg:h-[460px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H"
-                    title="MQP mini CNC mill: presentation of finalized R&D phase"
+                    src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H&rel=0"
+                    title="MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
