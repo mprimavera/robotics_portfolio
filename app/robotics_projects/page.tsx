@@ -31,9 +31,10 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            These projects represent selected examples of my technical work and analytical approach. This is not an exhaustive
-            representation, and some professional experience—such as my work on Milara’s software team—cannot be displayed due
-            to confidentiality restrictions.
+            The projects shown here highlight selected work in control systems, embedded programming, and full-system engineering.
+            <br/>
+            This set is not comprehensive; some professional work, including contributions made while part of Milara’s software
+            team, cannot be presented due to confidentiality restrictions.
           </p>
         </div>
 
