@@ -133,6 +133,7 @@ const Engineering_Tools = [
           <li>Engineering Drawing Interpretation</li>
           <li>VS Code</li>
           <li>WebStorm</li>
+          <li>Jupyter</li>
           <li>Oscilloscope</li>
           <li>Soldering</li>
           <li>Multimeter</li>
